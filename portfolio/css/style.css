@@ -140,6 +140,11 @@ h1{
   padding:0;
   margin:0 0 20px 0;
 }
+#heading-small { display: none; }
+@media (min-width: 0px) and (max-width: 540px) {
+  #heading-big { display: none; }
+  #heading-small { display: inline-block; }
+}
 article section{
   padding:0;
 }

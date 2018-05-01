@@ -4,7 +4,8 @@ include_once("portfolio/includes/header.php");
 ?>
 <div id="index-page">
 <div class="left">
-  <h1>A showcase of my projects and achievements</h1>
+  <h1 id="heading-big">A showcase of my projects and achievements</h1>
+  <h1 id="heading-small">My projects and achievements</h1>
   <p>
     I am a graduate from Manchester Metropolitan University where I was awarded a 1st Class (Hons) degree in BSc Computing. My areas of interest include working with data engineering, data security or software development. I also enjoy building computers, diagnosing problems and repairing them.
   </p>
