@@ -176,6 +176,10 @@ article section{
   text-align: center;
   overflow: hidden;
 }
+.centre {
+  margin-left: auto;
+  margin-right: auto;
+}
 @media (min-width: 0px) and (max-width: 900px) {
   .fadein img {
     max-width: 640px;
@@ -225,6 +229,9 @@ article section{
     width: 85%;
     margin-left: 6%;
   }
+  footer {
+    height: 60px;
+  }
 }
 
 #one { }
@@ -247,6 +254,7 @@ article section{
   text-align: center;
 }
 #contact-content {
+  /* border: 1px black solid; */
   margin-left: auto;
   margin-right: auto;
 }
