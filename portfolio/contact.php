@@ -27,6 +27,7 @@ if(isset($_POST['submit'])) {
 
 include_once("includes/header.php");
 ?>
+  <meta name="Description" content="Contact me using the form.">
   <script type='text/javascript' src="/portfolio/scripts/fg_captcha_validator.js"></script>
 
 <article style="float:none; clear:both; margin-left:auto; margin-right:auto;">
