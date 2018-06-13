@@ -6,19 +6,25 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>https://markbellingham.me/</loc>
-  <lastmod>2017-12-08T16:52:19+00:00</lastmod>
+  <lastmod>2018-05-25T09:56:53+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://markbellingham.me/index.php</loc>
-  <lastmod>2017-12-08T16:52:19+00:00</lastmod>
+  <lastmod>2018-05-25T09:56:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://markbellingham.me/portfolio/projects.php</loc>
-  <lastmod>2017-12-08T16:52:19+00:00</lastmod>
+  <lastmod>2018-05-25T09:56:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Front_Page</loc>
+  <lastmod>2018-05-19T15:22:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -28,17 +34,284 @@
 </url>
 <url>
   <loc>https://markbellingham.me/portfolio/contact.php</loc>
-  <lastmod>2017-12-08T16:52:19+00:00</lastmod>
+  <lastmod>2018-05-25T09:56:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://markbellingham.me/portfolio/documents/Mark-Bellingham-CV.pdf</loc>
-  <lastmod>2017-12-08T16:49:58+00:00</lastmod>
+  <loc>https://markbellingham.me/portfolio/documents/Mark_Bellingham_CV.pdf</loc>
+  <lastmod>2018-03-29T13:27:02+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=How_To_Guides</loc>
+  <lastmod>2018-04-10T15:43:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Create_an_object_oriented_dynamic_website_with_Java_and_MySQL</loc>
+  <lastmod>2018-05-24T21:01:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Year_3</loc>
+  <lastmod>2018-04-02T11:21:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Data_Engineering</loc>
+  <lastmod>2018-03-24T12:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Enterprise_Programming</loc>
+  <lastmod>2018-04-19T15:34:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Information_Security</loc>
+  <lastmod>2018-04-10T15:11:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Network_Security</loc>
+  <lastmod>2018-04-06T16:51:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Year_2</loc>
+  <lastmod>2018-05-14T16:19:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Computer_Networks</loc>
+  <lastmod>2018-05-14T13:26:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Operating_Systems</loc>
+  <lastmod>2018-05-07T12:08:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Information_Systems_and_Database_Development</loc>
+  <lastmod>2018-05-19T15:01:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Professional_Development</loc>
+  <lastmod>2018-05-14T16:08:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Year_1</loc>
+  <lastmod>2018-03-22T21:54:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Computing_Study:About</loc>
+  <lastmod>2018-05-08T13:01:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Front_Page&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-05-19T15:22:26+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://markbellingham.me/owncloud/index.php/login</loc>
-  <lastmod>2017-12-08T16:52:19+00:00</lastmod>
+  <lastmod>2018-05-25T09:56:53+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=How_To_Guides&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-04-10T15:43:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=SQL_Script</loc>
+  <lastmod>2018-05-23T15:48:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Music-Recordings-Class</loc>
+  <lastmod>2018-05-23T17:37:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=DAO_version_1</loc>
+  <lastmod>2018-05-24T18:24:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Create_an_object_oriented_dynamic_website_with_Java_and_MySQL&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-05-24T21:01:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Year_3&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-04-02T11:21:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Data_Engineering&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-03-24T12:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Enterprise_Programming&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-04-19T15:34:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Information_Security&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-04-10T15:11:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Network_Security&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-04-06T16:51:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Year_2&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-05-14T16:19:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Computer_Networks&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-05-14T13:26:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Operating_Systems&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-05-07T12:08:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Information_Systems_and_Database_Development&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-05-19T15:01:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Professional_Development&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-05-14T16:08:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Year_1&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-03-22T21:54:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Computing_Study:About&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-05-08T13:01:51+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Front_Page&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-05-19T15:22:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=How_To_Guides&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-04-10T15:43:23+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=SQL_Script&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-05-23T15:48:18+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Music-Recordings-Class&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-05-23T17:37:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=DAO_version_1&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-05-24T18:24:50+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Create_an_object_oriented_dynamic_website_with_Java_and_MySQL&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-05-24T21:01:10+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Year_3&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-04-02T11:21:56+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Data_Engineering&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-03-24T12:04:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Enterprise_Programming&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-04-19T15:34:48+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Information_Security&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-04-10T15:11:41+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Network_Security&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-04-06T16:51:21+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Year_2&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-05-14T16:19:35+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Computer_Networks&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-05-14T13:26:22+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Operating_Systems&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-05-07T12:08:32+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Information_Systems_and_Database_Development&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-05-19T15:01:35+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Professional_Development&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-05-14T16:08:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Year_1&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-03-22T21:54:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Computing_Study:About&amp;mobileaction=toggle_view_desktop</loc>
+  <lastmod>2018-05-08T13:01:51+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=SQL_Script&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-05-23T15:48:18+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=Music-Recordings-Class&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-05-23T17:37:06+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://markbellingham.me/wiki/index.php?title=DAO_version_1&amp;mobileaction=toggle_view_mobile</loc>
+  <lastmod>2018-05-24T18:24:50+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+
+
 </urlset>
