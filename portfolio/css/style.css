@@ -215,6 +215,11 @@ article section{
   padding-top: 15px;
   color: rgb(var(--Dark));
 }
+.second-level-list {
+  margin: 0;
+  padding:0 0 1em 0;
+  list-style-type: none;
+}
 .about:hover { color: rgb(var(--Dark)); }
 .about h3 { display: inline; }
 .about li:not(:last-child) { margin-bottom: 1em; }
@@ -368,6 +373,9 @@ article section{
 }
 #netsec {
   clear: both;
+}
+.congo-img {
+  float: left;
 }
 
 
