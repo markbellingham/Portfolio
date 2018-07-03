@@ -18,13 +18,13 @@ include_once("portfolio/includes/header.php");
   <p>
     Click on the <a href="portfolio/projects.php"><b>Projects</b></a> link at the top of the page to find out more about my projects and assignments. You can filter the results using the dropdown selection box. If you click on one of the projects, an information box appears giving you more details as well as a link to the project report and where possible, a working project demonstration.<br/><br/>
     <a class="applink centre" href="/portfolio/documents/Mark_Bellingham_CV.pdf" target="_blank"
-      onclick="ga(‘send’, {'hitType':'event', 'eventCategory':'PDF document', 'eventAction':'document-CV'});">Download a copy of my CV</a>
+      onclick="ga(‘send’, {'hitType':'event', 'eventCategory':'PDF document', 'eventAction':'document-CV'});"><b>Download a copy of my CV</b></a>
   </p>
   <p>
-    The <a href="wiki" target="_blank"><b>wiki</b></a> contains lots of information about my areas of study, as well as some programming tutorials.
+    The <a href="wiki" target="_blank" alt="wiki"><b>wiki</b></a> contains lots of information about my areas of study, as well as some programming tutorials.
   </p>
   <p>
-    Feel free to <a href="portfolio/contact.php"><b>contact me</b></a> if you have any questions about anything on my website, if you have something that you think might interest me, or if you just want to say hi.
+    Feel free to <a href="contact.php"><b>contact me</b></a> if you have any questions about anything on my website, if you have something that you think might interest me, or if you just want to say hi.
   </p>
 
 </div> <!-- ends left -->
@@ -36,10 +36,6 @@ include_once("portfolio/includes/header.php");
 </div> <!-- ends right - ends fadein -->
 <?php include("portfolio/about.php"); ?>
 </div> <!-- ends index-page -->
-<?php
-include_once("portfolio/includes/footer.php");
-?>
-
 
 <script>
 $(function(){
@@ -51,3 +47,7 @@ $(function(){
       6000);
 });
 </script>
+
+<?php
+include_once("portfolio/includes/footer.php");
+?>
