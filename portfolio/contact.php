@@ -40,7 +40,7 @@ include_once("includes/header.php");
         <p><input class=contact type=text name=name placeholder=Name autocorrect=off autocapitalize=words/></p>
         <p><input class=contact type=email name=email placeholder="Email address"/></p>
         <p><textarea id=message name=message placeholder="Your message"></textarea></p>
-        <img src="includes/captcha.php" alt="captcha"/>
+        <img src="/portfolio/includes/captcha.php" alt="captcha"/>
         <p><input id=captcha-code type=text name=code placeholder="Input code above"/></p>
         <p><input type=submit name=submit value=Send /></p>
       </form>
