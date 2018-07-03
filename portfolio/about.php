@@ -20,18 +20,19 @@ ga('create', 'UA-115626803-1', 'auto');
   <div class="about" id="two">
     <h3>Awards</h3>
     <ul>
-      <li>1st Class (Hons) degree in BSc Computing</li></br>
+      <li>1st Class (Hons) degree in BSc Computing</li>
       <li>Academic Achievement Award</li>
-      - For best overall 1st year performance
+        <ul class="second-level-list"><li>- For best overall 1st year performance</li></ul>
       <li>MMU Futures Bronze Award</li>
-      - For participating in extracurricular activities
+        <ul class="second-level-list"><li>- For participating in extracurricular activities</li></ul>
     </ul>
   </div> <!-- ends two -->
   <div class="about" id="three">
     <h3>Personal Projects</h3>
     <ul>
-      <li>This Raspberry Pi webserver, using Nginx for PHP and HTML and reverse proxy passes JSP and Java requests to Tomcat.</li>
-      <li>OwnCloud server, enabling me to access my files from anywhere.</li>
+      <li>This Raspberry Pi webserver, using Nginx for PHP and HTML and reverse proxy passes JSP and Java requests to Tomcat</li>
+      <li>Programming tutorials on my wiki</li>
+      <li>OwnCloud server, enabling me to access my files from anywhere</li>
       <li>Automated backup server</li>
     </ul>
   </div> <!-- ends three -->
