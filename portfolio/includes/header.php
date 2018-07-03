@@ -38,7 +38,7 @@
         <a href="/portfolio/projects.php" class="mainMenu">Projects</a>
         <a href="/wiki" class="mainMenu" target="_blank" onclick="ga(‘send’, {'hitType':'event', 'eventCategory':'external app', 'eventAction':'Wiki'});">Wiki</a>
         <a href="https://markbellingham.me/owncloud" class="mainMenu" target="_blank">OwnCloud</a>
-        <a href="/portfolio/contact.php" class="mainMenu">Contact</a>
+        <a href="/contact.php" class="mainMenu">Contact</a>
       </p>
       <div id="smlogos">
         <div id="sm_logos">
