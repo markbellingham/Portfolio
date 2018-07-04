@@ -282,6 +282,25 @@ article section{
 /*-------------------
  Projects Page styles
  -------------------- */
+ #tagcloud {
+     width: 70%;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     background: #fff;
+     padding: 10px;
+     border: 1px solid rgb(var(--Dark));
+     text-align:center;
+     border-radius: 10px;
+ }
+ #tagcloud span { padding: 4px; }
+ #dropdown { display: none; }
+
+ @media (min-width: 0px) and (max-width: 642px) {
+
+ }
+
 #closeButton {
   display: none;
   float: right;
@@ -290,18 +309,20 @@ article section{
 }
 
 #projects { clear: both; }
+.project-4 { background-color: rgba(var(--Colour1), 1.0); }
+.project-4:hover { background-color: rgba(var(--Colour2), 1.0); }
 
-.project-3 { background-color: rgba(var(--Colour1), 0.9); }
-.project-3:hover { background-color: rgba(var(--Colour2), 0.9); }
+.project-3 { background-color: rgba(var(--Colour1), 0.8); }
+.project-3:hover { background-color: rgba(var(--Colour2), 0.8); }
 
 .project-2 { background-color: rgba(var(--Colour1), 0.6); }
 .project-2:hover { background-color: rgba(var(--Colour2), 0.6); }
 
-.project-1 { background-color: rgba(var(--Colour1), 0.3); }
-.project-1:hover { background-color: rgba(var(--Colour2), 0.3); }
+.project-1 { background-color: rgba(var(--Colour1), 0.4); }
+.project-1:hover { background-color: rgba(var(--Colour2), 0.4); }
 
-.project-0 { background-color: rgba(var(--Colour1), 0.1); }
-.project-0:hover { background-color: rgba(var(--Colour2), 0.1); }
+.project-0 { background-color: rgba(var(--Colour1), 0.2); }
+.project-0:hover { background-color: rgba(var(--Colour2), 0.2); }
 
 .categories {
   min-width:100%;

@@ -16,7 +16,7 @@ include_once("portfolio/includes/header.php");
     In the About Me section below you can get a brief oversight of my skills and abilities. Here you will also find confirmation of my degree results. Full certificates available on request.
   </p>
   <p>
-    Click on the <a href="portfolio/projects.php"><b>Projects</b></a> link at the top of the page to find out more about my projects and assignments. You can filter the results using the dropdown selection box. If you click on one of the projects, an information box appears giving you more details as well as a link to the project report and where possible, a working project demonstration.<br/><br/>
+    Click on the <a href="portfolio/projects.php"><b>Projects</b></a> link at the top of the page to find out more about my projects and assignments. You can filter the results using the links in the word cloud. If you click on one of the projects, an information box appears giving you more details as well as a link to the project report and where possible, a working project demonstration.<br/><br/>
     <a class="applink centre" href="/portfolio/documents/Mark_Bellingham_CV.pdf" target="_blank"
       onclick="ga(‘send’, {'hitType':'event', 'eventCategory':'PDF document', 'eventAction':'document-CV'});"><b>Download a copy of my CV</b></a>
   </p>

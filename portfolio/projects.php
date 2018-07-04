@@ -9,16 +9,30 @@ include_once('includes/project_categories_model.php');
   <h1>A showcase of some of my projects</h1>
   <?php
 
-  $sql = "SELECT DISTINCT c_name FROM categories ORDER BY c_name";
-  $categories = Categories::find_by_sql($sql);
-
   if (isset($_GET['category'])) {
     $url_parameter = $_GET['category'];
   } else {
     $url_parameter = "";
   }
 
-  echo "Use the dropdown box to filter results by category.";
+  // Code for generating the word cloud
+  $sql = "SELECT pc.c_name, SUM(p.p_group + 1) AS 'value' FROM projects p JOIN project_categories pc ON p.p_name = pc.p_name GROUP BY pc.c_name";
+  $categories = ProjectCategories::find_by_sql($sql);
+  ?>
+  <div id="tagcloud">
+  <?php
+  foreach ($categories as $category) {
+    $size = 1 + ($category->value)/10 . "em";
+  ?>
+    <span style="font-size: <?php echo $size; ?>">
+    <a href="projects.php?category=<?php echo $category->c_name; ?>"><?php echo $category->c_name ?></a>
+    </span>
+  <?php
+  }?>
+  </div> <!-- ends tagcloud -->
+
+  <div id="dropdown">
+  Use the dropdown box to filter results by category. <?php
   if($categories) { ?>
     <form action = <?php echo $_SERVER['PHP_SELF']; ?> method="GET">
       <select name="category" onchange="this.form.submit()">
@@ -32,8 +46,11 @@ include_once('includes/project_categories_model.php');
         } ?>
       </select>
     </form><?php
-  }
+  } ?>
+  </div> <!-- ends dropdown -->
 
+  <?php
+  // Query to filter the projects
   if($url_parameter != "" && $url_parameter != "Show all") {
     $escaped_parameter = $database->escape_value($url_parameter);
     $sql = "SELECT * FROM projects p JOIN project_categories pc ON p.p_name = pc.p_name WHERE pc.c_name = '$escaped_parameter' ORDER BY p_group DESC";
@@ -50,6 +67,7 @@ include_once('includes/project_categories_model.php');
   <a id="closeButton" href="#" onclick="closeDiv()">[close X]</a>
   <div id="projectInfo"></div>
 
+  <!-- Listing the projects -->
   <div id="projects">
     <?php
     $title = 0;
