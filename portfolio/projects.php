@@ -20,15 +20,15 @@ include_once('includes/project_categories_model.php');
   $categories = ProjectCategories::find_by_sql($sql);
   ?>
   <div id="tagcloud">
-  <?php
-  foreach ($categories as $category) {
-    $size = 1 + ($category->value)/10 . "em";
-  ?>
+    <?php
+    foreach ($categories as $category) {
+      $size = 1 + ($category->value)/10 . "em";
+    ?>
     <span style="font-size: <?php echo $size; ?>">
-    <a href="projects.php?category=<?php echo $category->c_name; ?>"><?php echo $category->c_name ?></a>
+      <a href="projects.php?category=<?php echo $category->c_name; ?>"><?php echo $category->c_name ?></a>
     </span>
-  <?php
-  }?>
+    <?php
+    }?>
   </div> <!-- ends tagcloud -->
 
   <div id="dropdown">
