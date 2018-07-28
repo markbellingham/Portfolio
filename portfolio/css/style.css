@@ -256,7 +256,7 @@ footer{
   margin-right: auto;
   margin-bottom: 20px;
   font-size: 1.5em;
-  color: rgb(var(--Dark));
+  color: rgb(var(--Light));
 }
 @media (min-width: 0px) and (max-width: 860px) {
   #col1, #col2, #col3, #col4 {

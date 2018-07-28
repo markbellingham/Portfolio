@@ -5,6 +5,9 @@ include_once("portfolio/includes/header.php");
 <div id="index-page">
   <h1 id="heading-big">A showcase of my projects and achievements</h1>
   <h1 id="heading-small">My projects and achievements</h1>
+  <?php if(!isset($_COOKIE['switchstyle'])) {
+    echo "(Don't like the colours? Change them in the footer.)";
+  }?>
   <a id="cv" class="applink centre" href="/portfolio/documents/Mark_Bellingham_CV.pdf" target="_blank"
     onclick="ga(‘send’, {'hitType':'event', 'eventCategory':'PDF document', 'eventAction':'document-CV'});"><b>Download a copy of my CV</b></a>
   <div id="article">

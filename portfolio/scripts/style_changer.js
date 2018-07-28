@@ -1,6 +1,7 @@
 // These are the variables; you can change these if you want
-var expDays = 9999;  // How many days to remember the setting
-var standardStyle = '1'; // This is the number of your standard style sheet; this will be used when the user did not do anything.
+var expDays = 1;  // How many days to remember the setting
+var stylesheetIds = ['1','2','3','4'];
+var currentStyle = stylesheetIds[Math.floor(Math.random() * stylesheetIds.length)]; // Choose a random style sheet; this will be used when the user did not do anything.
 var nameOfCookie = 'switchstyle'; // This is the name of the cookie that is used.
 var urlToCSSDirectory = '/portfolio/css/'; // This is the URL to your directory where your .css files are placed on your site.  For example: http://www.seniorennet.be/URL_TO_STYLESHEET_DIRECTORY_OF_YOUR_SITE/
 
@@ -20,7 +21,8 @@ var ScreenCSS_4 = 'style4.css';
 function switchStyleOfUser(){
 	var fontSize = GetCookie(nameOfCookie);
 	if (fontSize == null) {
-		fontSize = standardStyle;
+		fontSize = currentStyle;
+    SetCookie(nameOfCookie, currentStyle)
 	}
 
 	if (fontSize == "1") { document.write('<link rel="stylesheet" type"text/css" href="' + urlToCSSDirectory + ScreenCSS_1 + '" media="screen">'); }
