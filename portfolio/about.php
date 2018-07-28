@@ -7,7 +7,7 @@ ga('create', 'UA-115626803-1', 'auto');
 <!-- End Google Analytics -->
 
 <div id="about-wrapper">
-  <h1>A little bit about myself</h1>
+  <a id="about"> </a><h1>A little bit about myself</h1>
   <div class="about" id="one">
     <h3>Skills</h3>
     <ul>
