@@ -34,7 +34,7 @@
   <div id="container">
     <header>
       <p id="mainMenu">
-        <a href="/index.php" class="mainMenu">Home</a>
+        <a href="https://markbellingham.me" class="mainMenu">Home</a>
         <a href="/portfolio/projects.php" class="mainMenu">Projects</a>
         <a href="/wiki" class="mainMenu" target="_blank" onclick="ga(‘send’, {'hitType':'event', 'eventCategory':'external app', 'eventAction':'Wiki'});">Wiki</a>
         <a href="https://markbellingham.me/owncloud" class="mainMenu" target="_blank">OwnCloud</a>
