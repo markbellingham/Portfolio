@@ -31,7 +31,7 @@ include_once("includes/header.php");
   <script type='text/javascript' src="/portfolio/scripts/fg_captcha_validator.js"></script>
 
 <article style="float:none; clear:both; margin-left:auto; margin-right:auto;">
-  <h1>Contact me</h1>
+  <div id="contact-me"><p>Contact me</p></div>
   <?php if(!empty($error)) echo '<div class="error">'.$error.'</div>'; ?>
   <?php if(!empty($accept)) echo '<div class="accept">'.$accept.'</div>'; ?>
   <div id="contact-wrapper">
