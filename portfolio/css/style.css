@@ -423,6 +423,20 @@ article section{
   margin-left: auto;
   margin-right: auto;
 }
+#contact-me {
+  width: 500px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(var(--Colour1));
+}
+#contact-me p {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+}
 .contact {
   width: 500px;
   height: 30px;
