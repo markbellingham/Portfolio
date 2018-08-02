@@ -24,7 +24,7 @@ ga('create', 'UA-115626803-1', 'auto');
       <li>Academic Achievement Award</li>
         <ul class="second-level-list"><li>- For best overall 1st year performance</li></ul>
       <li>MMU Futures Bronze Award</li>
-        <ul class="second-level-list"><li>- For participating in extracurricular activities</li></ul>
+        <ul class="second-level-list"><li>- For extracurricular activities</li></ul>
     </ul>
   </div> <!-- ends two -->
   <div class="about" id="three">
